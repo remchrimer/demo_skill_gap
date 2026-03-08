@@ -41,7 +41,7 @@ The resume parsing gap from Option A is mitigated by designing the skill input a
 ## Architecture
 
 ```
-![alt text](image.png)
+![alt text](skill-bridge/image.png)
 ```
 
 
