@@ -1,0 +1,264 @@
+{
+  "roles": [
+    {
+      "id": "software-engineer",
+      "title": "Software Engineer",
+      "category": "Software Engineering",
+      "description": "Designs, develops, and maintains cybersecurity software across Palo Alto Networks' Strata, Prisma, and Cortex platforms. Works on cloud-native, high-scale systems — from next-generation firewalls to malware detection engines — protecting tens of thousands of enterprise customers.",
+      "levels": {
+        "junior": {
+          "required_skills": ["Python", "Git", "Data Structures & Algorithms", "Linux", "REST APIs", "Unit Testing", "SQL", "Agile Development"],
+          "nice_to_have": ["C/C++", "Go", "Docker", "Networking Basics"]
+        },
+        "mid": {
+          "required_skills": ["System Design", "Docker", "CI/CD", "Cloud Services (AWS/GCP/Azure)", "Networking Protocols", "Microservices", "Performance Optimization", "Code Review", "Integration Testing"],
+          "nice_to_have": ["Kubernetes", "Security Fundamentals", "Terraform", "Go"]
+        },
+        "senior": {
+          "required_skills": ["System Architecture", "Technical Leadership", "Distributed Systems", "Security Architecture", "Cross-team Collaboration", "Mentoring", "Capacity Planning", "Production Incident Management"],
+          "nice_to_have": ["Open Source Contribution", "Patent/Publication", "Executive Communication"]
+        }
+      }
+    },
+    {
+      "id": "sqa-engineer",
+      "title": "Software Quality & Automation Engineer",
+      "category": "Software Engineering Automation/Test",
+      "description": "Designs and implements automated testing frameworks and quality assurance processes for Palo Alto Networks' security products. Ensures product reliability through comprehensive test automation, CI/CD integration, and quality metrics across the release lifecycle.",
+      "levels": {
+        "junior": {
+          "required_skills": ["Python", "Test Fundamentals", "Git", "Linux", "REST API Testing", "Test Automation Frameworks", "Bug Tracking & Reporting", "SQL"],
+          "nice_to_have": ["Selenium", "Docker", "CI/CD Basics", "Network Testing"]
+        },
+        "mid": {
+          "required_skills": ["Test Architecture", "CI/CD Integration", "Performance Testing", "Docker", "Security Testing Basics", "Test Data Management", "Cross-team QA Coordination", "Load Testing", "API Test Automation"],
+          "nice_to_have": ["Kubernetes", "Chaos Testing", "Network Protocol Testing", "Ansible"]
+        },
+        "senior": {
+          "required_skills": ["QA Strategy & Leadership", "Technical Leadership", "Test Infrastructure Architecture", "Release Quality Management", "Cross-team Collaboration", "Mentoring", "Quality Metrics & Reporting", "Security Certification Testing"],
+          "nice_to_have": ["AI-Assisted Testing", "Compliance Testing", "Performance Architecture"]
+        }
+      }
+    },
+    {
+      "id": "ml-engineer",
+      "title": "Machine Learning Engineer",
+      "category": "Software Machine Learning Engineering",
+      "description": "Develops machine learning models powering Palo Alto Networks' Precision AI technology. Builds and deploys models for threat detection, malware classification, URL filtering, data loss prevention, and anomaly identification using NLP, deep learning, and LLMs on exabytes of security data.",
+      "levels": {
+        "junior": {
+          "required_skills": ["Python", "Machine Learning Fundamentals", "NumPy/Pandas", "SQL", "Statistics & Probability", "Git", "Scikit-learn", "Data Preprocessing"],
+          "nice_to_have": ["PyTorch", "Docker", "NLP Basics", "Cloud Services"]
+        },
+        "mid": {
+          "required_skills": ["PyTorch or TensorFlow", "NLP & Deep Learning", "MLOps (Kubeflow/Airflow)", "Feature Engineering", "Docker", "Cloud Services (GCP/AWS)", "Anomaly Detection", "Model Evaluation & Monitoring", "Large-Scale Data Processing"],
+          "nice_to_have": ["LLMs & Generative AI", "Distributed Training", "Cybersecurity Domain Knowledge", "Kubernetes"]
+        },
+        "senior": {
+          "required_skills": ["ML System Design", "Technical Leadership", "Production ML Architecture", "LLMs & Generative AI", "Cross-team Collaboration", "Research to Production Pipeline", "Mentoring", "AI for Cybersecurity", "Model Governance & Compliance"],
+          "nice_to_have": ["Patent/Publication", "Conference Speaking", "RAG Systems", "Hardware Acceleration"]
+        }
+      }
+    },
+    {
+      "id": "sre",
+      "title": "Site Reliability Engineer",
+      "category": "Site Reliability Engineering",
+      "description": "Ensures the reliability, availability, and performance of Palo Alto Networks' production systems. Builds automation, defines SLOs, manages incidents, and drives infrastructure improvements to keep customer-facing security platforms running at scale.",
+      "levels": {
+        "junior": {
+          "required_skills": ["Linux", "Python", "Shell Scripting", "Docker", "CI/CD", "Git", "Monitoring Basics", "Networking Fundamentals"],
+          "nice_to_have": ["Kubernetes", "Terraform", "Cloud Services (AWS/GCP/Azure)"]
+        },
+        "mid": {
+          "required_skills": ["Kubernetes", "Terraform", "Cloud Services (AWS/GCP/Azure)", "Monitoring & Observability", "Incident Response", "Configuration Management", "Infrastructure as Code", "SLO/SLI Definition", "Automation at Scale"],
+          "nice_to_have": ["Service Mesh", "Chaos Engineering", "GitOps", "Security Best Practices"]
+        },
+        "senior": {
+          "required_skills": ["Platform Engineering", "Site Reliability Architecture", "Technical Leadership", "Cloud Architecture", "Disaster Recovery", "Capacity Planning", "Cross-team Collaboration", "Automation Strategy"],
+          "nice_to_have": ["Zero Trust Infrastructure", "Internal Developer Platforms", "FinOps"]
+        }
+      }
+    },
+    {
+      "id": "devops-engineer",
+      "title": "DevOps Engineer",
+      "category": "DevOps Engineering",
+      "description": "Builds and maintains CI/CD pipelines, deployment automation, and infrastructure tooling across Palo Alto Networks' engineering organization. Bridges development and operations to accelerate release velocity while maintaining security and reliability standards.",
+      "levels": {
+        "junior": {
+          "required_skills": ["Linux", "Python", "Git", "Docker", "CI/CD Pipelines", "Shell Scripting", "Cloud Services Basics", "YAML/JSON Configuration"],
+          "nice_to_have": ["Kubernetes", "Terraform", "Jenkins or GitHub Actions"]
+        },
+        "mid": {
+          "required_skills": ["Kubernetes", "Terraform", "Cloud Architecture (AWS/GCP/Azure)", "Pipeline Orchestration", "Security Best Practices", "Container Orchestration", "Configuration Management", "GitOps", "Infrastructure as Code"],
+          "nice_to_have": ["Ansible", "Service Mesh", "Chaos Engineering", "Vault/Secrets Management"]
+        },
+        "senior": {
+          "required_skills": ["DevOps Architecture", "Technical Leadership", "Cloud-Native Infrastructure", "Platform Engineering", "Cross-team Collaboration", "Mentoring", "Release Engineering Strategy", "Cost Optimization"],
+          "nice_to_have": ["Internal Developer Platforms", "FinOps", "Zero Trust CI/CD"]
+        }
+      }
+    },
+    {
+      "id": "it-engineer",
+      "title": "IT Software Engineer",
+      "category": "IT Software Engineer",
+      "description": "Builds and maintains internal IT systems and enterprise applications supporting Palo Alto Networks' global business operations. Develops automation, internal platforms, and integrations across the company's technology ecosystem.",
+      "levels": {
+        "junior": {
+          "required_skills": ["Python", "SQL", "Git", "REST APIs", "Cloud Services (AWS/GCP/Azure)", "Agile/Scrum", "JavaScript", "Basic Scripting"],
+          "nice_to_have": ["Docker", "Terraform", "ServiceNow"]
+        },
+        "mid": {
+          "required_skills": ["Cloud Architecture", "CI/CD Pipelines", "Docker", "Infrastructure as Code", "System Integration", "Monitoring & Observability", "Security Best Practices", "Database Design", "API Development"],
+          "nice_to_have": ["Kubernetes", "ServiceNow", "Salesforce APIs", "Data Pipelines"]
+        },
+        "senior": {
+          "required_skills": ["Enterprise Architecture", "Technical Leadership", "Cross-functional Collaboration", "Platform Strategy", "Mentoring", "Vendor Evaluation", "Cost Optimization", "Compliance & Governance"],
+          "nice_to_have": ["Executive Communication", "Budget Planning", "M&A Integration"]
+        }
+      }
+    },
+    {
+      "id": "solutions-consultant",
+      "title": "Solutions Consultant",
+      "category": "Systems Engineering",
+      "description": "Provides technical leadership in customers' security transformation journeys. Defines solutions across Network Security, SASE, SaaS, CNAPP, and SOC Transformation. Delivers technical presentations, workshops, and validation engagements to establish Palo Alto Networks as the cybersecurity partner of choice.",
+      "levels": {
+        "junior": {
+          "required_skills": ["Network Security Fundamentals", "Security Product Knowledge", "Technical Troubleshooting", "Presentation Skills", "Customer Communication", "Datacenter & Cloud Infrastructure Basics", "Firewall Concepts", "Technical Writing"],
+          "nice_to_have": ["PCNSE", "Competitive Landscape Knowledge", "CISSP", "Scripting"]
+        },
+        "mid": {
+          "required_skills": ["Security Architecture Design", "Network Security / SASE / CNAPP Solutions", "Technical Presentations & Workshops", "Stakeholder Relationship Building", "Security Transformation Roadmaps", "Competitive Differentiation", "SOC Transformation Technologies", "Zero Trust Architecture", "Public Cloud Infrastructure"],
+          "nice_to_have": ["PCNSE", "CISSP", "CCIE", "Partner Enablement"]
+        },
+        "senior": {
+          "required_skills": ["Enterprise Security Strategy", "Technical Leadership", "Executive-Level Engagement", "Complex Solution Architecture", "Cross-team Collaboration", "Mentoring", "Industry Thought Leadership", "Strategic Account Planning"],
+          "nice_to_have": ["CISSP", "CCIE", "Public Speaking", "Analyst Relations"]
+        }
+      }
+    },
+    {
+      "id": "domain-consultant",
+      "title": "Domain Consultant (Specialist SE)",
+      "category": "Systems Engineering - Specialist",
+      "description": "Subject matter expert for a specific Palo Alto Networks platform — Cortex (SOC Transformation), Prisma (Cloud Security), or Strata (Network Security). Architects deep technical solutions within a specialty domain, serving as the go-to authority on technologies like XSIAM, XSOAR, XDR, CNAPP, or NGFW for pre-sales engagements.",
+      "levels": {
+        "junior": {
+          "required_skills": ["Security Operations Fundamentals", "SIEM or Cloud Security Basics", "Endpoint Security Concepts", "Log Analysis", "Networking Fundamentals", "Presentation Skills", "Technical Writing", "Incident Triage"],
+          "nice_to_have": ["Python Scripting", "Splunk or QRadar", "SOAR Basics"]
+        },
+        "mid": {
+          "required_skills": ["SIEM/SOAR Solutions or Cloud Security Platforms", "SOC Processes & Workflows", "XDR/EDR Technologies", "Incident Response", "Security Automation", "Technical Presentations", "MITRE ATT&CK Framework", "Client Relationship Management", "Threat Intelligence"],
+          "nice_to_have": ["Cortex XSIAM/XSOAR", "Prisma Cloud", "Python Scripting", "IBM QRadar"]
+        },
+        "senior": {
+          "required_skills": ["Domain Architecture & Strategy", "Technical Leadership", "Executive Engagement", "Competitive Positioning", "Cross-team Collaboration", "Mentoring", "Complex Deal Support", "Industry Thought Leadership"],
+          "nice_to_have": ["CISSP", "Conference Speaking", "Vendor Evaluation", "Analyst Relations"]
+        }
+      }
+    },
+    {
+      "id": "incident-responder",
+      "title": "Digital Forensics & Incident Response Consultant",
+      "category": "Cybersecurity Consulting",
+      "description": "Conducts digital forensics and incident response engagements as part of Palo Alto Networks' Unit 42 advisory team. Investigates data breaches, performs host-based and network-level analysis, examines log sources for indicators of compromise, and guides clients through containment and long-term remediation.",
+      "levels": {
+        "junior": {
+          "required_skills": ["Digital Forensics Fundamentals", "Incident Response Basics", "Windows & Linux Host Analysis", "Log Analysis", "Network Fundamentals", "Technical Writing", "Command-Line Proficiency", "Security Concepts"],
+          "nice_to_have": ["EnCase or FTK", "Python Scripting", "Malware Analysis Basics", "Wireshark"]
+        },
+        "mid": {
+          "required_skills": ["Forensic Tools (EnCase, FTK, X-Ways, SIFT)", "Incident Response Leadership", "Enterprise Data Acquisition & Analysis", "Malware Analysis", "Client Engagement & Scoping", "MITRE ATT&CK Framework", "Scripting (Python/PowerShell)", "Cloud Forensics", "Memory Forensics (Volatility)"],
+          "nice_to_have": ["Splunk", "Threat Intelligence", "Reverse Engineering"]
+        },
+        "senior": {
+          "required_skills": ["Technical Breach Response Leadership", "Expert Forensic Analysis", "Executive & C-Suite Briefings", "Threat Landscape Intelligence", "Client Relationship Management", "Mentoring & Team Development", "Industry Presentations & Publications", "Practice Development"],
+          "nice_to_have": ["GCFE/GCFA/GNFA", "Media Presence", "Government Liaison"]
+        }
+      }
+    },
+    {
+      "id": "grc-consultant",
+      "title": "Governance, Risk & Compliance Consultant",
+      "category": "Cybersecurity Consulting",
+      "description": "Leads governance, risk, and compliance engagements for Palo Alto Networks' Unit 42 Proactive Services. Conducts security risk assessments, develops incident response plans, facilitates tabletop exercises, and advises clients on Zero Trust transformations aligned with frameworks like NIST CSF, CIS 18, and ISO 27001.",
+      "levels": {
+        "junior": {
+          "required_skills": ["Security Frameworks (NIST CSF, ISO 27001)", "Risk Assessment Basics", "Technical Writing", "Security Concepts", "Business Communication", "Compliance Fundamentals (GDPR, HIPAA)", "Documentation & Reporting", "Stakeholder Communication"],
+          "nice_to_have": ["GRC Tools", "Cloud Security Basics", "SOX Knowledge"]
+        },
+        "mid": {
+          "required_skills": ["Security Risk Assessments (NIST CSF, CIS 18)", "Incident Response Plan Development", "Tabletop Exercise Facilitation", "Regulatory Standards (GDPR, CCPA, SOX, HIPAA)", "Client Stakeholder Management", "Zero Trust Architecture Concepts", "SOC Process Assessment", "Audit & Gap Analysis", "Threat Intelligence Awareness"],
+          "nice_to_have": ["CISSP", "CISM", "CRISC", "Palo Alto Networks Product Knowledge"]
+        },
+        "senior": {
+          "required_skills": ["Zero Trust Transformation Leadership", "C-Suite Advisory", "Security Architecture Design (NIST SP 800-207)", "Practice Development & Go-to-Market", "Client Relationship Development", "Team Management & Mentoring", "Complex Engagement Leadership", "Regulatory Expertise"],
+          "nice_to_have": ["CISSP", "Government/Policy Influence", "Conference Speaking", "Analyst Relations"]
+        }
+      }
+    },
+    {
+      "id": "product-manager",
+      "title": "Product Manager",
+      "category": "Product Management",
+      "description": "Defines product vision and roadmap for Palo Alto Networks' cybersecurity products. Prioritizes features based on customer needs, the evolving threat landscape, and business goals. Coordinates across engineering, design, marketing, and sales to ship products that protect organizations worldwide.",
+      "levels": {
+        "junior": {
+          "required_skills": ["Product Thinking", "Market Research", "Data Analysis", "User Stories & Requirements", "Agile/Scrum", "Business Communication", "Competitive Analysis", "Technical Fluency"],
+          "nice_to_have": ["SQL", "Cybersecurity Basics", "Wireframing", "A/B Testing"]
+        },
+        "mid": {
+          "required_skills": ["Product Roadmapping", "Stakeholder Management", "Metrics & KPIs", "Technical Fluency", "Cross-functional Leadership", "Cybersecurity Domain Knowledge", "Go-to-Market Collaboration", "Customer Discovery", "Prioritization Frameworks"],
+          "nice_to_have": ["SQL", "A/B Testing", "Pricing Strategy", "API Product Management"]
+        },
+        "senior": {
+          "required_skills": ["Product Strategy", "Executive Communication", "P&L Ownership", "Market Positioning", "Organizational Influence", "Team Building", "Platform Thinking", "Competitive Intelligence", "Partner Ecosystem Strategy"],
+          "nice_to_have": ["Board Presentations", "M&A Evaluation", "Partnership Development", "Analyst Relations"]
+        }
+      }
+    },
+    {
+      "id": "professional-services-engineer",
+      "title": "Professional Services Engineer",
+      "category": "Professional Services Engineering",
+      "description": "Deploys and integrates Palo Alto Networks security solutions at customer sites. Leads post-sales implementation engagements including SIEM migration to Cortex XSIAM, firewall deployment, log onboarding, and detection strategy development. Serves as a trusted advisor ensuring successful product adoption.",
+      "levels": {
+        "junior": {
+          "required_skills": ["Network Security Fundamentals", "Firewall Configuration", "Linux", "TCP/IP & Routing Protocols", "Technical Documentation", "Customer Communication", "Troubleshooting", "Log Management Basics"],
+          "nice_to_have": ["SIEM Basics", "Python Scripting", "Palo Alto Networks NGFW"]
+        },
+        "mid": {
+          "required_skills": ["SIEM Deployment & Integration", "Firewall & IDS/IPS Solutions", "Detection Use Case Development", "Correlation Rule Design", "SOC Tooling & Processes", "Project Leadership", "Endpoint Security Solutions", "Security Automation", "Migration Planning"],
+          "nice_to_have": ["Cortex XSIAM", "Splunk", "Regular Expressions (Regex)", "Cloud Security"]
+        },
+        "senior": {
+          "required_skills": ["SOC Modernization Strategy", "Technical Leadership", "Enterprise SIEM Architecture", "Client Advisory (CISO-level)", "Mentoring & Team Development", "Cross-functional Collaboration", "AI-Driven Detection Strategy", "Practice Development"],
+          "nice_to_have": ["CISSP", "GIAC Certifications", "Executive Presence", "Product Roadmap Influence"]
+        }
+      }
+    },
+    {
+      "id": "technical-support-engineer",
+      "title": "Technical Support Engineer",
+      "category": "Technical Support",
+      "description": "Provides post-sales technical support for Palo Alto Networks' products including Strata NGFW, Prisma, and Cortex platforms. Performs root cause analysis, reproduces customer issues, collaborates with engineering on defects, and authors technical documentation. Serves as a designated customer advocate ensuring environment security.",
+      "levels": {
+        "junior": {
+          "required_skills": ["TCP/IP & Networking Protocols", "Linux & Windows OS", "Firewall Concepts", "Troubleshooting Methodology", "Log Analysis", "Technical Writing", "Customer Communication", "Security Fundamentals"],
+          "nice_to_have": ["Python Scripting", "Virtualization (VMware/KVM)", "VPN Technologies", "Wireshark"]
+        },
+        "mid": {
+          "required_skills": ["Routing & Switching (OSPF, BGP, VLAN)", "Security Protocols (IPSEC, SSL-VPN, NAT)", "Root Cause Analysis", "Multi-vendor Troubleshooting", "Cloud Platforms (AWS/Azure)", "SIEM/SOAR Tools", "Scripting (Python/PowerShell)", "Knowledge Base Authoring", "Virtualization Technologies"],
+          "nice_to_have": ["Palo Alto Networks NGFW", "Cortex XDR/XSIAM", "Authentication Protocols (LDAP/SAML/RADIUS)", "Competitive Products (Cisco, Checkpoint, Fortinet)"]
+        },
+        "senior": {
+          "required_skills": ["Technical Escalation Leadership", "Complex Network Debugging", "Engineering Collaboration (Bug Filing & Triage)", "Customer Advocacy", "Technical Documentation Leadership", "Mentoring", "Cross-functional Problem Solving", "Product Quality Improvement"],
+          "nice_to_have": ["PCNSE", "CISSP", "Public Sector/Government Experience", "Product Roadmap Influence"]
+        }
+      }
+    }
+  ]
+}

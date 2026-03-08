@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill-Bridge Career Navigator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Skill-Bridge</h1>
+            <p class="subtitle">AI-powered career navigator | find your path from new grad to senior</p>
+        </header>
+
+        <!-- Step 1: Skill Input -->
+        <section class="card" id="skills-section">
+            <h2>1. Your Current Skills</h2>
+            <p class="hint">Start typing to see suggestions, or enter any skill and press Enter</p>
+            <div class="skill-input-wrapper">
+                <div class="skill-tags" id="skill-tags"></div>
+                <input
+                    type="text"
+                    id="skill-input"
+                    placeholder="Type a skill..."
+                    autocomplete="off"
+                />
+                <div class="autocomplete-list" id="autocomplete-list"></div>
+            </div>
+        </section>
+
+        <!-- Step 2: Role + Level Selection -->
+        <section class="card" id="role-section">
+            <h2>2. Target Role & Level</h2>
+            <div class="role-controls">
+                <div class="filter-row">
+                    <select id="category-filter">
+                        <option value="">All Career Areas</option>
+                        <option value="Software Engineering">Software Engineering</option>
+                        <option value="Software Engineering Automation/Test">Software Engineering Automation/Test</option>
+                        <option value="Software Machine Learning Engineering">Software Machine Learning Engineering</option>
+                        <option value="Site Reliability Engineering">Site Reliability Engineering</option>
+                        <option value="DevOps Engineering">DevOps Engineering</option>
+                        <option value="IT Software Engineer">IT Software Engineer</option>
+                        <option value="Systems Engineering">Systems Engineering</option>
+                        <option value="Systems Engineering - Specialist">Systems Engineering - Specialist</option>
+                        <option value="Cybersecurity Consulting">Cybersecurity Consulting</option>
+                        <option value="Product Management">Product Management</option>
+                        <option value="Professional Services Engineering">Professional Services Engineering</option>
+                        <option value="Technical Support">Technical Support</option>
+                    </select>
+                    <input
+                        type="text"
+                        id="role-search"
+                        placeholder="Search roles..."
+                    />
+                </div>
+                <div class="role-list" id="role-list"></div>
+                <div class="level-select" id="level-select" style="display:none;">
+                    <h3>Select Target Level</h3>
+                    <div class="level-buttons">
+                        <button class="level-btn" data-level="junior">Junior</button>
+                        <button class="level-btn" data-level="mid">Mid</button>
+                        <button class="level-btn" data-level="senior">Senior</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analyze Button -->
+        <button class="analyze-btn" id="analyze-btn" disabled>Analyze My Gap</button>
+
+        <!-- Results -->
+        <section class="card" id="results-section" style="display:none;">
+            <div id="results-meta"></div>
+            <div id="results-skills"></div>
+            <div id="courses-container"></div>
+        </section>
+
+        <!-- Loading -->
+        <div class="loading" id="loading" style="display:none;">
+            <div class="spinner"></div>
+            <p>Analyzing your skills...</p>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
