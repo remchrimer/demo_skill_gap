@@ -82,9 +82,7 @@ Each role has three levels. Required skills are stored as flat string arrays ord
 
 Happy path: submit known skills against a known role with mocked AI, verify 5 skills returned with correct structure and used_fallback false.
 
-AI failure: mock Gemini to raise ConnectionError, verify fallback activates, returns skills from role data in priority order, used_fallback true, user's existing skills excluded from results.
-
-Input validation: empty skills returns 422, invalid role ID returns 404, role endpoints return data, category filtering works.
+AI failure: mock Gemini to raise prompt injection handling
 
 ## Future Work
 
